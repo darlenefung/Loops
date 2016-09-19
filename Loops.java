@@ -20,6 +20,12 @@ public class Loops
 		
 		System.out.println("----------------");
 		nestedForLoop();
+		
+		System.out.println("----------------");
+		rightSideUpTriangle();
+		
+		System.out.println("----------------");
+		
 	}
 	
 	
@@ -75,6 +81,30 @@ public class Loops
 	
 	}
 	
+	public static void rightSideUpTriangle()
+	{
+		int n = 4; 
+		int counter = 0;
+		while (counter < n)
+		{	
+			String PrintString = "*";
+			int StarCounter = 1;
+			while (StarCounter <= counter)
+			{
+				PrintString += "*";
+				StarCounter ++;
+			}
+			
+			System.out.println(PrintString);
+			counter ++;
+		}
 	
+	}
+	
+	
+	//public static void ()
+	{
+	
+	}
 	
 }
