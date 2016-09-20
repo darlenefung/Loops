@@ -25,7 +25,7 @@ public class Loops
 		rightSideUpTriangle();
 		
 		System.out.println("----------------");
-		
+		upsideDownTriangle();
 	}
 	
 	
@@ -102,9 +102,26 @@ public class Loops
 	}
 	
 	
-	//public static void ()
+	public static void upsideDownTriangle()
 	{
+		int n = 4; 
+		int counter = n;
+		while (counter > 0)
+		{	
+			String PrintString = "*";
+			int StarCounter = counter;
+			while (StarCounter > 1)
+			{
+				PrintString += "*";
+				StarCounter -= 1;
+			}
+			
+			System.out.println(PrintString);
+			counter -= 1;
+		}
 	
 	}
+	
+	
 	
 }
